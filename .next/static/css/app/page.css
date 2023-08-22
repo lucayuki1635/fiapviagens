@@ -18,9 +18,11 @@
 }
 
 .navbar_item__nDiGI a {
-    color: #ff0000;
+    color: #fff;
     text-decoration: none
 }
+
+
 
 .navbar_nav-links__H5Uy2 {
   list-style: none;
@@ -30,5 +32,111 @@
 
 .navbar_nav-links__H5Uy2 li a {
   text-decoration: none;
-  color: rgb(255, 0, 0);
+  color: white;
 }
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/components/layout/cards.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+article {
+    width: 15rem; 
+    height: 20rem;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+  }
+  
+  article a::after {
+    position: absolute;
+    inset-block: 0;
+    inset-inline: 0;
+    cursor: pointer;
+    content: "";
+  }
+
+  article p{
+    color: black;
+  }
+  
+  article h2 {
+    margin: 0 0 18px 0;
+    font-size: 1.5rem;
+    letter-spacing: 0.06em;
+    color: black;
+    transition: color 0.3s ease-out;
+    }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+  
+  article img {
+    max-width: 100%;
+    transform-origin: center;
+    transform: 1.001;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .article-body {
+    padding: 2rem;
+  }
+  
+  article a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1673ca;
+  }
+  
+  article a .icon {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  article:has(:hover, :focus) {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+
+
+  .articles {
+    margin-top: 25vw;
+    display: grid;
+    max-width: 100vh;
+    margin-inline: auto;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 2rem;
+    
+}
+.articles-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh; 
+}
+
+  .article-body {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+}
+
+  .read-more.fixed-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+}
+
