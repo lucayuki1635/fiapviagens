@@ -8,11 +8,11 @@ const Card = () => {
                 <article>
                     <div className="article-wrapper">
                     <figure>
-                        <img src="img1.jpg" alt="" />
+                        <img src="coliseu.jpg" alt="" />
                     </figure>
                     <div className="article-body">
                         <h2>Itália</h2>
-                        <p>Descrição</p>
+                        <p>Coliseu</p>
                         
                     </div>
                     <a href="#" className="read-more fixed-bottom">
@@ -24,11 +24,11 @@ const Card = () => {
                 <article>
                     <div className="article-wrapper">
                     <figure>
-                        <img src="img1.jpg" alt="" />
+                        <img src="alpis.jpg" alt="" />
                     </figure>
                     <div className="article-body">
-                        <h2>Itália</h2>
-                        <p>Descrição</p>
+                        <h2>Suiça</h2>
+                        <p>Alpes Suíço</p>
                         
                     </div>
                     <a href="#" className="read-more fixed-bottom">
@@ -40,11 +40,11 @@ const Card = () => {
                 <article>
                     <div className="article-wrapper">
                     <figure>
-                        <img src="img1.jpg" alt="" />
+                        <img src="torre-paris.jpg" alt="" />
                     </figure>
                     <div className="article-body">
-                        <h2>Itália</h2>
-                        <p>Descrição</p>
+                        <h2>França</h2>
+                        <p>Torre Eiffel</p>
                         
                     </div>
                     <a href="#" className="read-more fixed-bottom">

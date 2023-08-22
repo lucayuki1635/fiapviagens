@@ -1,7 +1,18 @@
-/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/layout/navbar.module.css ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************/
-.navbar_navbar__K_WHD {
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/styles.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+/* styles.css */
+.background {
+    background-image: url(/_next/static/media/img2.4c88fb87.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 30rem;
+
+  }
+  
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/components/layout/Navbar.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.navbar {
   background-color: transparent;
   padding: 10px;
   display: flex;
@@ -9,31 +20,33 @@
   align-items: center;
 }
 
-.navbar_logo__mGaf_ {
+.logo {
   color: white;
 }
 
-.navbar_item__nDiGI {
+.item {
     margin-right: 1em;
 }
 
-.navbar_item__nDiGI a {
+.item a {
     color: #fff;
     text-decoration: none
 }
 
 
 
-.navbar_nav-links__H5Uy2 {
+.nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-.navbar_nav-links__H5Uy2 li a {
+.nav-links li a {
   text-decoration: none;
   color: white;
 }
+
+
 /*!***************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/components/layout/cards.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************/

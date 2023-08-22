@@ -1,4 +1,4 @@
-// File: C:\Users\numse\OneDrive\Área de Trabalho\fiapviagens\app\layout.js
+// File: C:\Users\logonrmlocal\Desktop\fiapviagens\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

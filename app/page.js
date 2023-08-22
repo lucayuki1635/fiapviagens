@@ -1,18 +1,13 @@
-
-import Image from 'next/image';
+import React from 'react';
+import './styles.css'; 
 import NavBar from './components/layout/navbar';
-import BasicExample from './components/layout/cards';
-
+import Card from './components/layout/cards';
 
 export default function Home() {
   return (
-    <div>
-      <NavBar/>
-      <div>
-        <BasicExample/>
-      </div>
-    
+    <div className="background">
+      <NavBar />
+      <Card/>
     </div>
-    
   );
 }

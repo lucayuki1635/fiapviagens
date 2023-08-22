@@ -560,8 +560,14 @@ video {
 .flex {
   display: flex;
 }
+.w-full {
+  width: 100%;
+}
 .items-center {
   align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
 }
 .gap-20 {
   gap: 5rem;
@@ -603,20 +609,8 @@ video {
   }
 }
 
-html {
-  height: 100%;
-  background: url(/_next/static/media/img2.4c88fb87.jpg);
-  background-size: cover; /* Ajusta o tamanho da imagem para cobrir a tela */
-  background-position: center; /* Centraliza a imagem na tela */
-}
-
 body {
-  margin: 0;
-  padding: 0;
+  background: linear-gradient(to top, #00346D, #000C1A);
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  color: rgb(var(--foreground-rgb));
-  background: none;
 }
-
