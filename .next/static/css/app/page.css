@@ -1,0 +1,34 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/layout/navbar.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_navbar__K_WHD {
+  background-color: transparent;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_logo__mGaf_ {
+  color: white;
+}
+
+.navbar_item__nDiGI {
+    margin-right: 1em;
+}
+
+.navbar_item__nDiGI a {
+    color: #ff0000;
+    text-decoration: none
+}
+
+.navbar_nav-links__H5Uy2 {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar_nav-links__H5Uy2 li a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
