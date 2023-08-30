@@ -3,6 +3,7 @@
   \**************************************************************************************************************************************************************************************************************************************************************/
 /* styles.css */
 .background {
+    height: 100vh;
     background-image: url(/_next/static/media/img2.4c88fb87.jpg);
     background-repeat: no-repeat;
     background-size: 100% 30rem;
@@ -129,7 +130,6 @@ article {
 .articles-container {
     display: flex;
     justify-content: center;
-    height: 100vh; 
 }
 
   .article-body {
