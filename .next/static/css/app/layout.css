@@ -613,21 +613,17 @@ video {
 .font-semibold {
   font-weight: 600;
 }
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
 .text-purple-100 {
   --tw-text-opacity: 1;
   color: rgb(243 232 255 / var(--tw-text-opacity));
 }
-.text-slate-100 {
-  --tw-text-opacity: 1;
-  color: rgb(241 245 249 / var(--tw-text-opacity));
-}
 .text-rose-600 {
   --tw-text-opacity: 1;
   color: rgb(225 29 72 / var(--tw-text-opacity));
+}
+.text-slate-100 {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity));
 }
 
 

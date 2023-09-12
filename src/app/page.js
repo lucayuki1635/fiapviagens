@@ -5,23 +5,28 @@ import CardDestaque from '../components/layout/CardDestaque.js';
 import Title from '../components/layout/Title.jsx';
 import CardMenor from '../components/layout/CardMenor.jsx';
 
-export default function Home() {
-  const destinos = [
-    {
-      nome: "Paris",
-      info: "Teste",
-      image: "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-02.jpg"
-    },
 
-    {
-      nome: "Zurique",
-      info: "Teste",
-      image: "https://www.qualviagem.com.br/wp-content/uploads/2016/09/iStock_86150945_SMALL.jpg"
-    },
-
-  ] 
+//https://restcountries.com/v3.1/name/{name}
 
 
+const lista_pais = ['france', 'switzerland']
+
+async function carregarPaises(name){
+  const url = `https://restcountries.com/v3.1/name/${name}`
+  const resposta = await fetch(url)
+  const json = await resposta.json()
+  return json
+}
+
+export default async function Home() {
+
+  const paisesTotal = []
+
+  for (let i = 0; i<lista_pais.length; i++){
+    const pais = lista_pais[i];
+    const paisDados = await carregarPaises(pais)
+    paisesTotal.push(paisDados)
+  }
   return (
     <>
       <div className="background">
@@ -30,11 +35,9 @@ export default function Home() {
       </div>
       <Title>Destinos</Title>
       <section className="flex flex-wrap" style={{marginLeft: '18rem', marginTop: '1rem'}}>
-        {destinos.map((destino)=>{
-          return <CardMenor dados={destino}/>
+        {paisesTotal.map((destino)=>{
+          return <CardMenor dados={destino[0]}/>
         })}
-
-        
       </section>
 
       <Title>Hotéis</Title>
