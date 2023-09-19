@@ -1,0 +1,19 @@
+{
+  "favoritos": [
+    {
+      "nome": "France",
+      "favoritado": true,
+      "id": 1
+    },
+    {
+      "nome": "France",
+      "favoritado": true,
+      "id": 2
+    },
+    {
+      "nome": "France",
+      "favoritado": false,
+      "id": 3
+    }
+  ]
+}

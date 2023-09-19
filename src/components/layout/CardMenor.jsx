@@ -1,6 +1,7 @@
 "use client"
 import { HeartIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
+import useFavorito from '@/hooks/destinos'
 
 const paises = [
     {
@@ -20,15 +21,19 @@ function encontrarPais(nome){
 
 
 export default function CardMenor({dados}){
-    const [favorito, setFavorito] = useState(false)
+    const { favorito, desfavoritar, favoritar } = useFavorito()
     const paisAchado = encontrarPais(dados.name.common)
-    console.log(paisAchado)
+    const dadosPais = {
+        nome: dados.name.common,
+        favoritado: favorito
+    }
+    console.log(dadosPais)
     return(
     <div id="card" className='flex flex-col w-40 justify-center items-center m-2'>
         {favorito ?
-            <HeartIcon onClick={()=> setFavorito(false)} className="h-6 w-6 text-rose-600" />
+            <HeartIcon onClick={()=> desfavoritar(dadosPais)} className="h-6 w-6 text-rose-600" />
             :
-            <HeartIcon onClick={()=> setFavorito(true)} className="h-6 w-6 text-slate-100" />
+            <HeartIcon onClick={()=> favoritar(dadosPais)} className="h-6 w-6 text-slate-100" />
         }
         
         <img className='rounded' src={paisAchado.image} alt="" style={{width:'150px', height: '200px'}}/>
