@@ -5,11 +5,14 @@ import useFavorito from '@/hooks/destinos'
 
 const paises = [
     {
+        id:1,
         pais : 'France',
         image: "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-02.jpg"
     },
-    { pais : 'Switzerland',
-      image: "https://www.qualviagem.com.br/wp-content/uploads/2016/09/iStock_86150945_SMALL.jpg"
+    { 
+        id:2,
+        pais : 'Switzerland',
+        image: "https://www.qualviagem.com.br/wp-content/uploads/2016/09/iStock_86150945_SMALL.jpg"
     },
   
   ] 
@@ -24,10 +27,9 @@ export default function CardMenor({dados}){
     const { favorito, desfavoritar, favoritar } = useFavorito()
     const paisAchado = encontrarPais(dados.name.common)
     const dadosPais = {
-        nome: dados.name.common,
-        favoritado: favorito
+        id : paisAchado.id,
+        nome: dados.name.common
     }
-    console.log(dadosPais)
     return(
     <div id="card" className='flex flex-col w-40 justify-center items-center m-2'>
         {favorito ?

@@ -1,1 +1,3 @@
+npm install -g json-server
+Set-ExecutionPolicy Unrestricted
 json-server --watch db.json --port 3001
