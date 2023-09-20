@@ -4,6 +4,11 @@
       "id": 1,
       "nome": "France",
       "favoritado": true
+    },
+    {
+      "id": 2,
+      "nome": "Switzerland",
+      "favoritado": true
     }
   ]
 }
