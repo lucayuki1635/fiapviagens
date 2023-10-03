@@ -3,29 +3,16 @@ import { HeartIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 import useFavorito from '@/hooks/destinos'
 
-const paises = [
-    {
-        id:1,
-        pais : 'France',
-        image: "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-02.jpg"
-    },
-    { 
-        id:2,
-        pais : 'Switzerland',
-        image: "https://www.qualviagem.com.br/wp-content/uploads/2016/09/iStock_86150945_SMALL.jpg"
-    },
-  
-  ] 
 
 
-function encontrarPais(nome){
+function encontrarPais(nome, paises){
     return paises.find(pais => pais.pais == nome);
 }
 
 
-export default function CardMenor({dados}){
+export default function CardMenor({dados, dadosPaises}){
     const { favorito, desfavoritar, favoritar } = useFavorito()
-    const paisAchado = encontrarPais(dados.name.common)
+    const paisAchado = encontrarPais(dados.name.common, dadosPaises)
     const dadosPais = {
         id : paisAchado.id,
         nome: dados.name.common

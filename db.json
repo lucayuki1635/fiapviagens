@@ -3,12 +3,79 @@
     {
       "id": 1,
       "nome": "France",
-      "favoritado": true
+      "favoritado": false
     },
     {
       "id": 2,
       "nome": "Switzerland",
-      "favoritado": true
+      "favoritado": false
+    },
+    {
+      "id": 3,
+      "nome": "Italy",
+      "favoritado": false
+    },
+    {
+      "id": 4,
+      "nome": "Spain",
+      "favoritado": false
+    },
+    {
+      "id": 5,
+      "nome": "Albania",
+      "favoritado": false
+    }
+  ],
+  "imagem": [
+    {
+      "id": 1,
+      "pais": "France",
+      "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-02.jpg"
+    },
+    {
+      "id": 2,
+      "pais": "Switzerland",
+      "image": "https://www.qualviagem.com.br/wp-content/uploads/2016/09/iStock_86150945_SMALL.jpg"
+    },
+    {
+      "id": 3,
+      "pais": "Italy",
+      "image": "https://super.abril.com.br/wp-content/uploads/2018/07/566f1d4c82bee174ca031716thinkstockphotos-468978752.jpeg"
+    },
+    {
+      "id": 4,
+      "pais": "Spain",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTczi3HVZRX_InjalLSpQuf7nViBVxajb3R2Q&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "pais": "Albania",
+      "image": "https://cdn.britannica.com/35/195935-050-456D7CBC/Skanderbeg-Square-Tirana-Albania.jpg"
+    },
+    {
+      "id": 6,
+      "pais": "Croatia",
+      "image": "https://ogimg.infoglobo.com.br/boa-viagem/21377482-185-e64/FT1086A/760/Zagreb-Croatia.jpg"
+    },
+    {
+      "id": 7,
+      "pais": "Croatia",
+      "image": "https://ogimg.infoglobo.com.br/boa-viagem/21377482-185-e64/FT1086A/760/Zagreb-Croatia.jpg"
+    },
+    {
+      "id": 8,
+      "pais": "Bulgaria",
+      "image": "https://upload.travelawaits.com/ta/uploads/2021/04/sofia-bulgariaa12542-scaled.jpg"
+    },
+    {
+      "id": 9,
+      "pais": "Austria",
+      "image": "https://i0.wp.com/manualdoturista.com.br/wp-content/uploads/2017/01/Austria-Viena.jpg?fit=650%2C424&ssl=1"
+    },
+    {
+      "id": 10,
+      "pais": "Tuvalu",
+      "image": "https://mega.ibxk.com.br/2023/01/17/17193542716424.jpg"
     }
   ]
 }
