@@ -1,20 +1,26 @@
 "use client"
 
 import Image from "next/image";
-import loginImage from "@/images/login.jpg"
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { toast } from "react-hot-toast";
+import loginImage from "@/images/login.jpg"
+import { serverLogin } from "../actions/user";
 
-export default function login(){
+
+export default function Login(){
     const [email, setEmail] = useState("")
     const [senha, setSenha] = useState("")
-    const {push} = useRouter()
+    const { push } = useRouter()
 
     function login(e){
         e.preventDefault()
-        if(email => "eduardopaivacoelho@outlook.com" && senha== "123"){
+        if (email=="eduardopaivacoelho@outlook.com" && senha== "123"){
+            serverLogin()
             push("/")
-        }else(alert("Dados Invalidos."))
+        }else{
+            toast.error("dados inválidos")
+        }
     }
 
     return(
