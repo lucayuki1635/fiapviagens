@@ -16,9 +16,11 @@ async function carregarPaises(name){
 }
 
 async function carregarDadosPaises(){
-  const url = `http://localhost:3001/imagem/`
+  const url = `http://localhost:3001/imagem`
   const resposta = await fetch(url)
   const json = await resposta.json()
+  console.log(json)
+  console.log(json.length)
   return json
 }
 

@@ -59,22 +59,22 @@
     },
     {
       "id": 7,
-      "pais": "Croatia",
-      "image": "https://ogimg.infoglobo.com.br/boa-viagem/21377482-185-e64/FT1086A/760/Zagreb-Croatia.jpg"
-    },
-    {
-      "id": 8,
       "pais": "Bulgaria",
       "image": "https://upload.travelawaits.com/ta/uploads/2021/04/sofia-bulgariaa12542-scaled.jpg"
     },
     {
-      "id": 9,
+      "id": 8,
       "pais": "Austria",
-      "image": "https://i0.wp.com/manualdoturista.com.br/wp-content/uploads/2017/01/Austria-Viena.jpg?fit=650%2C424&ssl=1"
+      "image": "https://i0.wp.com/manualdoturista.com.br/wp-content/uploads/2017/01/Austria-Viena.jpg"
+    },
+    {
+      "id": 9,
+      "pais": "Tuvalu",
+      "image": "https://mega.ibxk.com.br/2023/01/17/17193542716424.jpg"
     },
     {
       "id": 10,
-      "pais": "Tuvalu",
+      "pais": "Chile",
       "image": "https://mega.ibxk.com.br/2023/01/17/17193542716424.jpg"
     }
   ]
